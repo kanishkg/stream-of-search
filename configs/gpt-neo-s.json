@@ -1,0 +1,24 @@
+{
+  "activation_function": "gelu_new",
+  "architectures": [
+    "GPTNeoForCausalLM"
+  ],
+  "attention_dropout": 0.1,
+  "attention_types": [[["global"], 16]],
+  "embed_dropout": 0.1,
+  "hidden_size": 1024,
+  "initializer_range": 0.02,
+  "intermediate_size": null,
+  "layer_norm_epsilon": 1e-05,
+  "max_position_embeddings": 4096,
+  "model_type": "gpt_neo",
+  "num_heads": 16,
+  "num_layers": 16,
+  "resid_dropout": 0.1,
+  "vocab_size": 50257,
+  "window_size": 4096,
+  "bos_token_id": 50256,
+  "eos_token_id": 50256,
+  "torch_dtype": "bfloat16",
+  "_attn_implementation": "flash_attention_2"
+}
