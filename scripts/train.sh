@@ -1,4 +1,6 @@
-conda activate rational
+#!/bin/bash
+
+conda activate sos 
 
 cd src
 
