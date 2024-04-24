@@ -21,6 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the code
+Please update the scripts in the `scripts/` directory to reflect the correct paths to the data and model checkpoints. The following steps outline the process of running the code:
 1. Generate the countdown dataset
 ```bash
 sh scripts/gen_task.sh
