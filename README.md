@@ -53,11 +53,11 @@ This repository is structured to support efficient development, training, and ev
 ### `configs/`
 **Purpose**: Houses configuration files for various training settings.
 - `gpt-neo-s.json`: For the GPT-Neo transformer model.
-- `oft-mix-4-cd.json`: For the Optimal Solution (OT) model.
-- `sft-mix-4-cd.json`: For the Stream of Search (SoS) model.
-- `star1-mix-4-cd.json`: For Star iteration 1 model.
-- `star2-mix-4-cd.json`: For Star iteration 2 model.
-- `star3-mix-4-cd.json`: For Star iteration 3 model.
+- `oft-mix-4-cd.conf`: For the Optimal Solution (OT) model.
+- `sft-mix-4-cd.conf`: For the Stream of Search (SoS) model.
+- `star1-mix-4-cd.conf`: For Star iteration 1 model.
+- `star2-mix-4-cd.conf`: For Star iteration 2 model.
+- `star3-mix-4-cd.conf`: For Star iteration 3 model.
 
 ### `scripts/`
 **Purpose**: Contains scripts for data generation and model training.
