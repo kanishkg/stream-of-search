@@ -77,5 +77,5 @@ This repository is structured to support efficient development, training, and ev
 - `countdown_dfs.py`: Utilizes DFS for generating search streams.
 - `countdown_utils.py`: Provides utility functions for countdown scenarios.
 - `countdown_generate.py`: Generates countdown dataset.
-- `countdown_optimal.py`: Enriches countdown dataset with optimal paths.
+- `countdown_optimal.py`: Adds optimal paths to the countdown dataset.
 - `eval_neo.py`: Script for model evaluation.
