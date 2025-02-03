@@ -69,13 +69,12 @@ This repository is structured to support efficient development, training, and ev
 
 ### `src/`
 **Purpose**: Includes all source code for model training, data generation, and evaluation.
-- `data.py`: Generates the countdown dataset.
 - `model.py`: Main file for model definitions.
 - `train.py`: Executes model training processes.
 - `countdown.py`: Generates countdown problem scenarios.
 - `countdown_bfs.py`: Utilizes BFS for generating search streams.
 - `countdown_dfs.py`: Utilizes DFS for generating search streams.
 - `countdown_utils.py`: Provides utility functions for countdown scenarios.
-- `countdown_generate.py`: Generates countdown dataset.
+- `countdown_generate.py`: Generates the countdown dataset.
 - `countdown_optimal.py`: Adds optimal paths to the countdown dataset.
 - `eval_neo.py`: Script for model evaluation.
